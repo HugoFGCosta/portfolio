@@ -10,6 +10,10 @@
   #projects {
     height: fit-content;
   }
+  body.dark-theme {
+    background-color: rgb(53, 53, 53);
+    color: white;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -44,6 +48,10 @@
   }
   .about-containers {
     margin-top: 0;
+  }
+  body.dark-theme {
+    background-color: rgb(53, 53, 53);
+    color: white;
   }
 }
 
@@ -99,5 +107,20 @@
   }
   .text-container {
     text-align: justify;
+  }
+  body.dark-theme {
+    background-color: rgb(53, 53, 53);
+    color: white;
+  }
+  .theme-toggle-btn {
+    top: 1rem;
+    left: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    color: #000000;
+    cursor: pointer;
+    font-size: 0.8rem;
   }
 }

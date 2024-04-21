@@ -434,9 +434,10 @@ footer p {
 /* DarkLight */
 
 .theme-toggle-btn {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
+  position: fixed;
+  top: 20px; /* Define a distância do topo */
+  left: 20px; /* Define a distância da esquerda */
+  z-index: 1000;
   padding: 0.5rem 1rem;
   border-radius: 1rem;
   background-color: #ffffff;
