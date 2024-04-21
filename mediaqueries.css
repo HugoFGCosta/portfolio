@@ -113,6 +113,9 @@
     color: white;
   }
   .theme-toggle-btn {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 2px;
     top: 1rem;
     left: 1rem;
     padding: 0.5rem 1rem;
