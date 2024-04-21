@@ -446,7 +446,7 @@ footer p {
 }
 
 .dark-theme {
-  background-color: #000000;
+  background-color: rgb(53, 53, 53);
   color: #ffffff;
 }
 
@@ -473,4 +473,18 @@ footer p {
 
 .dark-theme .nav-links a:hover {
   color: #cccccc;
+}
+
+.dark-theme .details-container {
+  background: rgb(53, 53, 53);
+  color: #ffffff;
+  border-color: #ffffff;
+}
+.dark-theme * {
+  color: #ffffff;
+}
+
+.dark-theme .theme-toggle-btn {
+  background-color: #ffffff;
+  color: #000000;
 }
