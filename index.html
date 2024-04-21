@@ -7,6 +7,7 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <nav id="desktop-nav">
@@ -128,7 +129,7 @@
       <h1 class="title">Experience</h1>
       <div class="experience-details-container">
         <div class="about-containers">
-          <div class="details-container">
+          <div class="details-container" data-aos="fade-right">
             <h2 class="experience-sub-title">Frontend Development</h2>
             <div class="article-container">
               <article>
@@ -183,7 +184,7 @@
               </article>
             </div>
           </div>
-          <div class="details-container">
+          <div class="details-container" data-aos="fade-left">
             <h2 class="experience-sub-title">Backend Development / Other</h2>
             <div class="article-container">
               <article>
@@ -282,7 +283,7 @@
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
         <div class="about-containers">
-          <div class="details-container color-container">
+          <div class="details-container color-container" data-aos="zoom-in">
             <div class="article-container">
               <img
                 src="./assets/melrescar2.png"
@@ -306,7 +307,7 @@
               </button>
             </div>
           </div>
-          <div class="details-container color-container">
+          <div class="details-container color-container" data-aos="zoom-in">
             <div class="article-container">
               <img
                 src="./assets/piggame.png"
@@ -324,7 +325,7 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/HugoFGCosta/Javascript_Projects/tree/main/Pig_Game'"
               >
                 Github
               </button>
@@ -336,7 +337,7 @@
               </button>
             </div>
           </div>
-          <div class="details-container color-container">
+          <div class="details-container color-container" data-aos="zoom-in">
             <div class="article-container">
               <img
                 src="./assets/noticias.png"
@@ -354,7 +355,7 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/NelsonFerreira23/SiteNoticias'"
               >
                 Github
               </button>
@@ -416,5 +417,9 @@
       <p>Copyright &#169; 2024 Hugo Costa. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
