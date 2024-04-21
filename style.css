@@ -447,6 +447,12 @@ footer p {
   cursor: pointer;
 }
 
+.theme-toggle-btn:hover {
+  background-color: rgb(53, 53, 53);
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
 .dark-theme {
   background-color: rgb(53, 53, 53);
   color: #ffffff;
@@ -487,6 +493,13 @@ footer p {
 }
 
 .dark-theme .theme-toggle-btn {
+  background-color: rgb(53, 53, 53);
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.dark-theme .theme-toggle-btn:hover {
   background-color: #ffffff;
   color: #000000;
+  border-color: #ffffff;
 }
